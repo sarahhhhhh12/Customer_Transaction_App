@@ -1,0 +1,99 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+body.light-mode {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: inherit;
+}
+
+/* Buttons and Headers */
+button#resetButton {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    float: right; /* Position the reset button to the right */
+}
+
+button#resetButton:hover {
+    background-color: #45a049;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #281B41;
+    border-color: #6E4CB4;
+}
+
+.table tbody td {
+    border-color: #6E4CB4;
+}
+
+/* Tables */
+.table {
+    background-color: rgba(18, 18, 18, 0.455);
+    color: #fff;
+}
+
+.thead-dark {
+    background-color: #333;
+}
+
+.thead-dark.light-mode {
+    background-color: #edebeb;
+}
+
+/* Toggle Icon */
+.dark-mode-toggle {
+    cursor: pointer;
+    color: #ece80a !important;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    
+}
+
+#darkModeToggle.light-mode {
+    color: #333;
+}
+
+/* Charts */
+#transactionChart, #totalTransactionChart {
+    max-height: 400px;
+}
+
+/* Additional Styles for Vibrant Colors */
+.btn-secondary.light-mode {
+    background-color: #9c27b0;
+    border-color: #9c27b0;
+}
+
+.table.light-mode {
+    background-color: #f0f4c3;
+    color: #333;
+}
+
+.table .thead-dark.light-mode {
+    background-color: #7b1fa2;
+    border-color: #7b1fa2;
+}
+
+
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    src: url('webfonts/fa-solid-900.woff2') format('woff2'),
+         url('webfonts/fa-solid-900.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
